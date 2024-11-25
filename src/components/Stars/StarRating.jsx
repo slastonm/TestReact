@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 
 const StarRating = () => {
+  const test =123;
   const [rating, setRating] = useState(0);
 
   const handleClick = (value) => {
     setRating(value);
   };
+
+
 
   return (
     <div>
